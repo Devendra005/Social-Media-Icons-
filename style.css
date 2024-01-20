@@ -1,0 +1,39 @@
+a {
+    height: 100px;
+    width: 100px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 110px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+
+div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a i {
+    transition: all 0.3s linear;
+}
+
+a :hover {
+    transform: scale(1.4);
+}
+
+.fa-instagram {
+    color: #e84393;
+}
+
+.fa-linkdin {
+    color: #0097e6;
+}
